@@ -91,6 +91,7 @@ Dashboard: http://localhost:8501
 Use the dashboard to run new analyses, view charts and trends, and inspect historical runs.
 
 Example API response
+```
 {
   "source": "Reuters",
   "num_headlines": 10,
@@ -101,6 +102,7 @@ Example API response
   "topics": ["trump", "deal", "markets"],
   "summary": "Markets show mixed sentiment driven by geopolitical and corporate developments."
 }
+```
 
 Technologies
 
