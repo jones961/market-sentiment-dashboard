@@ -25,14 +25,15 @@ historical runs of sentiment analysis
 
 the latest summary and classification
 
-Project structure
-'''
+## Project Structure
+
+```
 WebScraper/
-├── app/                 # FastAPI backend
+├── app/                  # FastAPI backend
 │   ├── database.py
 │   ├── main.py
 │   └── logger.py
-├── core/                # Core pipeline logic
+├── core/                 # Core pipeline logic
 │   ├── scraper.py
 │   ├── preprocess.py
 │   ├── sentiment.py
@@ -40,12 +41,13 @@ WebScraper/
 │   ├── classifier.py
 │   ├── summariser.py
 │   └── pipeline.py
-├── dashboard/           # Streamlit frontend
+├── dashboard/            # Streamlit frontend
 │   └── app.py
 ├── requirements.txt
-├── sentiment.db         # SQLite database (runtime; typically .gitignored)
+├── sentiment.db          # SQLite database (runtime; usually gitignored)
 └── README.md
-'''
+```
+
 Installation
 
 Clone the repository:
