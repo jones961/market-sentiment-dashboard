@@ -26,6 +26,7 @@ historical runs of sentiment analysis
 the latest summary and classification
 
 Project structure
+'''
 WebScraper/
 ├── app/                 # FastAPI backend
 │   ├── database.py
@@ -44,7 +45,7 @@ WebScraper/
 ├── requirements.txt
 ├── sentiment.db         # SQLite database (runtime; typically .gitignored)
 └── README.md
-
+'''
 Installation
 
 Clone the repository:
